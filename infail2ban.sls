@@ -1,4 +1,4 @@
-install_snort:
+install_fail2ban:
     file.recurse:
       - name: /opt/fail2ban_install
       - source: salt://fail2ban
